@@ -1,0 +1,100 @@
+.header-heading {
+  font-family: "Montserrat";
+  width: 900px;
+  position: absolute;
+  left: 25%;
+  top: 55%;
+  text-align: left;
+  transform: translate(-25%, -55%);
+}
+.header-heading span {
+  font-family: "Alfa Slab One";
+  color: #bf2222;
+  border-bottom: 2px solid #3d2514;
+}
+.header-heading .details {
+  font-size: 23px;
+  color: #181818;
+}
+.header-heading h3 {
+  font-family: "Bebas Neue";
+  font-size: 1.6rem;
+  margin: 0px;
+  letter-spacing: 2px;
+  color: #3d2514;
+}
+.header-heading h2 {
+  font-family: "Alfa Slab One";
+  font-size: 4rem;
+  margin: 0px;
+  letter-spacing: 2px;
+  color: #3d2514;
+}
+.header-btns {
+  display: flex;
+  margin-top: 40px;
+}
+.header-btn {
+  width: 160px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  font-family: "Lato";
+  background-color: #bf2222;
+  box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
+  border-radius: 5px;
+  color: #ffffff;
+}
+.header-btn:hover {
+  background-color: transparent;
+  transition: all ease 0.5s;
+  color: #3d2514;
+  border: 2px solid #bf2222;
+}
+
+@media (max-width: 1190px) {
+  #main {
+    background-size: 1150px !important;
+  }
+  .header-heading {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .header-heading h2 {
+    font-size: 1.5rem;
+  }
+  .header-heading h1 {
+    font-size: 3rem;
+  }
+  .header-heading .details {
+    font-size: 1rem;
+  }
+  .pr-heading {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .pr-heading h2 {
+    font-size: 1.5rem;
+  }
+  .pr-heading h1 {
+    font-size: 3rem;
+  }
+  .pr-heading .details {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-heading {
+    width: 60%;
+  }
+  .pr-heading {
+    width: 60%;
+  }
+}

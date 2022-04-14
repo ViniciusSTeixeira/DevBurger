@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC");
 body {
-  background-color: #FAAC57;
+  background-color: #ffffff;
   height: 100vh;
   width: 100vw;
   overflow: hidden;
@@ -160,7 +160,8 @@ h1 {
   5% {
     transform: rotate(-27deg);
   }
-  30%, 50% {
+  30%,
+  50% {
     transform: rotate(0deg);
   }
   55% {

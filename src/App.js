@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import './App.css';
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar.jsx";
 import Loading from "./components/loading/Loading";
 import "./components/loading/Loading.css"
-import Header from "./components/Home"
+import Home from "./components/Home/Home.jsx"
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
       ) : (
         <>
         <Navbar/>
-        <Header />
+        <Home />
         </>
       )}
     </div>

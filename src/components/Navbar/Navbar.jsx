@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import logo from "../images/logo.png";
-import "../../src/App.css";
+import logo from "../../images/logo.png";
+import "./Navbar.css";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
