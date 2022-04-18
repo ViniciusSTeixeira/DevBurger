@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer>
       <div className="rodape">
-        <h3>Todos diteritos reservados</h3>
+        <h4>Todos os direitos reservados</h4>
       </div>
     </footer>
   );

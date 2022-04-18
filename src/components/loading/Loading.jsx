@@ -3,7 +3,7 @@ import React from "react";
 function Loading() {
   return (
     <>
-      <h1>Cooking in progress..</h1>
+      <h1>Preparando seu Hamburguer..</h1>
       <div id="cooking">
         <div class="bubble"></div>
         <div class="bubble"></div>

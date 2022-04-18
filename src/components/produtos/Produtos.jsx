@@ -10,9 +10,9 @@ function Produtos() {
     <div id="products">
       <h2>ESCOLHA E APROVEITE</h2>
       <div className="a-container">
-        <ProdutosBox image={burger1} title="HAMBURGUER 1" />
-        <ProdutosBox image={burger2} title="HAMBURGUER 1" />
-        <ProdutosBox image={burger3} title="HAMBURGUER 1" />
+        <ProdutosBox image={burger1} title="REACT BURGER" />
+        <ProdutosBox image={burger2} title="ARQUITETURA MATRIX" />
+        <ProdutosBox image={burger3} title="BURGER JS " />
       </div>
     </div>
   );
