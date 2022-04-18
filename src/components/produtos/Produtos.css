@@ -1,0 +1,97 @@
+#products {
+  width: 100%;
+  height: 120vh;
+  box-sizing: border-box;
+  font-family: "Lato";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  background-color: #ffffff;
+}
+#products h2 {
+  font-family: "Alfa Slab One";
+  letter-spacing: 2px;
+  color: #3d2514;
+  font-size: 3rem;
+}
+.a-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.a-box {
+  background-color: #ffffff;
+  width: 200px;
+  height: 300px;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.4s ease-in-out;
+  position: relative;
+}
+.a-b-img {
+  width: 100%;
+  height: 60%;
+}
+.a-b-img img {
+  padding: 15px;
+  margin-top: 40px;
+  width: 100%;
+  height: 100%;
+}
+.a-box:hover {
+  box-shadow: 2px 2px 12px rgba(184, 98, 0, 0.445);
+}
+.a-b-text {
+  width: 100%;
+  height: 40%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.a-b-text h3 {
+  color: #3d2514;
+}
+.productbox-button {
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-family: "Lato";
+  background-color: #bf2222;
+  box-shadow: 5px 10px 30px rgba(255, 103, 2, 0.336);
+  border-radius: 5px;
+  color: #ffffff;
+}
+.productbox-button:hover {
+  background-color: transparent;
+  transition: all ease 0.5s;
+  color: #3d2514;
+  border: 2px solid #3d2514;
+}
+@media (max-width: 1190px) {
+  #products {
+    height: auto;
+  }
+  .a-container {
+    flex-wrap: wrap;
+  }
+  .a-box {
+    flex-grow: 1;
+  }
+  .a-b-img img {
+    object-fit: contain;
+  }
+}
+@media (max-width: 970px) {
+  #products {
+    margin-bottom: 100px;
+  }
+}

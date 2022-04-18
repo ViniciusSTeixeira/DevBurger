@@ -1,8 +1,6 @@
 import React from "react";
-import Footer from "../footer/Footer";
-
+import Link from "react-scroll/modules/components/Link";
 import "./Home.css";
-
 
 function Home() {
   return (
@@ -16,13 +14,11 @@ function Home() {
         </h2>
         <p className="details">DETALHES SOBRE O HAMBURGUER DA SEMANA</p>
         <div className="header-btns">
-          <a href="#" className="header-btn">
+          <Link to='products'><a href="#" className="header-btn">
             ESCOLHA
-          </a>
+          </a></Link>
         </div>
       </div>
-      
-      <Footer />
     </div>
   );
 }

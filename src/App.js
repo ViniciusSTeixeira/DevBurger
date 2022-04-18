@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
-import './App.css';
+import "./App.css";
+import "./components/loading/Loading.css";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Loading from "./components/loading/Loading";
-import "./components/loading/Loading.css"
-import Home from "./components/Home/Home.jsx"
-
-
+import Home from "./components/Home/Home.jsx";
+import Produtos from "./components/produtos/Produtos.jsx";
+import Footer from "./components/footer/Footer.jsx";
 
 function App() {
   const [loading, setLoading] = useState(false);
- 
+
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
@@ -19,12 +19,13 @@ function App() {
   return (
     <div className="App">
       {loading ? (
-        <Loading/>
+        <Loading />
       ) : (
         <>
-        <Navbar/>
-        <Home />
-       
+          <Navbar />
+          <Home />
+          <Produtos />
+          <Footer />
         </>
       )}
     </div>
