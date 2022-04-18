@@ -1,5 +1,8 @@
 import React from "react";
+import Footer from "../footer/Footer";
+
 import "./Home.css";
+
 
 function Home() {
   return (
@@ -18,6 +21,8 @@ function Home() {
           </a>
         </div>
       </div>
+      
+      <Footer />
     </div>
   );
 }

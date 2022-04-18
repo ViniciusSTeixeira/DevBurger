@@ -6,6 +6,7 @@ import "./components/loading/Loading.css"
 import Home from "./components/Home/Home.jsx"
 
 
+
 function App() {
   const [loading, setLoading] = useState(false);
  
@@ -23,6 +24,7 @@ function App() {
         <>
         <Navbar/>
         <Home />
+       
         </>
       )}
     </div>
