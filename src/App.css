@@ -7,7 +7,7 @@ body {
   padding: 0px;
   background-color: #ffffff;
   font-family: "Bebas Neue", "Lato", sans-serif;
-  overflow-y: scroll
+  overflow-y: scroll;
 }
 * {
   box-sizing: border-box;

@@ -12,14 +12,19 @@ function Home() {
           <br />
           SEMANA
         </h2>
-        <p className="details">REACT BURGUER! UM DELICIOSO BLEND<br/>
-        DE 200G COM CEBOLA CARAMELIZADA,<br/>
-        BARBECUE DE BACON E MOLHO ESPECIAL DA CASA.
+        <p className="details">
+          REACT BURGUER! UM DELICIOSO BLEND
+          <br />
+          DE 200G COM CEBOLA CARAMELIZADA,
+          <br />
+          BARBECUE DE BACON E MOLHO ESPECIAL DA CASA.
         </p>
         <div className="header-btns">
-          <Link to='products'><a href="#" className="header-btn">
-            ESCOLHA
-          </a></Link>
+          <Link to="products">
+            <a href="#" className="header-btn">
+              ESCOLHA
+            </a>
+          </Link>
         </div>
       </div>
     </div>
