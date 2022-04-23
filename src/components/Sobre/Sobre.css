@@ -1,0 +1,27 @@
+.sobre-container {
+    display: flex;
+}
+
+.sobre-box {
+    padding: 10px;
+}
+
+.sobre-box:hover {
+    background-color: black;
+    color: antiquewhite;
+    transition: 0.5s;
+}
+
+img {
+    border-radius: 15px;
+}
+
+img:hover {
+    border-radius: 150px;
+    transition: 2s;
+}
+
+#about h2 {
+    letter-spacing: 3px;
+    color: #3d2514;
+}

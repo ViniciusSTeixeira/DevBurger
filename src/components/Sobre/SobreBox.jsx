@@ -1,4 +1,5 @@
 import React from "react";
+import "./Sobre.css"
 
 function SobreBox (props) {
     return (
@@ -9,7 +10,8 @@ function SobreBox (props) {
 
             <div className="sobre-texto">
                 <h2> {props.title} </h2>
-                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis repellat iusto illum consequatur laboriosam cum corrupti tempora quis? Consequatur necessitatibus nam natus dolore repudiandae ipsa sit magnam aliquid esse distinctio.</p>
+                <p> Linkedin: {props.linkedin} <br/> 
+                Github: {props.github}</p>
             </div>
 
         </div>
