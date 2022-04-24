@@ -11,10 +11,10 @@ function Sobre() {
     <div id="about">
       <h2>SOBRE A EQUIPE:</h2>
       <div className="sobre-container">
-        <SobreBox image={sobreimage1} title="Jaiane Guimarães" linkedin=""/>
-        <SobreBox image={sobreimage2} title="Jonatas Alves"/>
-        <SobreBox image={sobreimage3} title="Maysa Pereira"/>
-        <SobreBox image={sobreimage4} title="Vinicius Teixeira"/>
+        <SobreBox image={sobreimage1} title="JAIANE GUIMARÃES" linkedin=""/>
+        <SobreBox image={sobreimage2} title="JONATAS ALVES"/>
+        <SobreBox image={sobreimage3} title="MAYSA PEREIRA"/>
+        <SobreBox image={sobreimage4} title="VINICIUS TEIXEIRA"/>
       </div>
     </div>
   );
