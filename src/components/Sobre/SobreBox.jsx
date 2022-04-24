@@ -9,7 +9,7 @@ function SobreBox (props) {
             </div>
 
             <div className="sobre-texto">
-                <h2> {props.title} </h2>
+                <h3> {props.title} </h3>
                 <p> Linkedin: {props.linkedin} <br/> 
                 Github: {props.github}</p>
             </div>
