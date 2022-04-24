@@ -8,8 +8,8 @@ import "./Sobre.css"
 
 function Sobre() {
   return (
-    <div id="products">
-      <h2 id="sobre-titulo">SOBRE A EQUIPE:</h2>
+    <div id="about">
+      <h2>SOBRE A EQUIPE:</h2>
       <div className="sobre-container">
         <SobreBox image={sobreimage1} title="Jaiane Guimarães" linkedin=""/>
         <SobreBox image={sobreimage2} title="Jonatas Alves"/>

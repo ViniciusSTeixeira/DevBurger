@@ -9,12 +9,14 @@
     justify-content: center;
     padding-top: 40px;
     background-color: #ffffff;
-}
+  }
 
-#about h2 {
-    letter-spacing: 3px;
+  #about h2 {
+    font-family: "Alfa Slab One";
+    letter-spacing: 2px;
     color: #3d2514;
-}
+    font-size: 3rem;
+  }
 
 .sobre-container {
     display: flex;
