@@ -9,6 +9,7 @@ import Produtos from "./components/produtos/Produtos.jsx";
 import Sobre from "./components/Sobre/Sobre.jsx";
 import Footer from "./components/footer/Footer.jsx";
 
+
 function App() {
   const [loading, setLoading] = useState(false);
 
