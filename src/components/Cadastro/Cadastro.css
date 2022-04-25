@@ -1,4 +1,4 @@
-#about {
+#contact {
     width: 100%;
     height: 120vh;
     box-sizing: border-box;
@@ -11,33 +11,9 @@
     background-color: #ffffff;
   }
 
-  #about h2 {
+  #contact h2 {
     font-family: "Alfa Slab One";
     letter-spacing: 2px;
     color: #3d2514;
     font-size: 3rem;
   }
-
-.sobre-container {
-    display: flex;
-}
-
-.sobre-box {
-    padding: 10px;
-}
-
-.sobre-box:hover {
-    background-color: black;
-    color: antiquewhite;
-    transition: 2s;
-}
-
-img {
-    size: 10PX;
-    border-radius: 15px;
-}
-
-img:hover {
-    border-radius: 150px;
-    transition: 2s;
-}
