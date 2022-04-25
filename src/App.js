@@ -7,6 +7,7 @@ import Loading from "./components/loading/Loading";
 import Home from "./components/Home/Home.jsx";
 import Produtos from "./components/produtos/Produtos.jsx";
 import Sobre from "./components/Sobre/Sobre.jsx";
+import Cadastro from "./components/Cadastro/Cadastro.jsx"
 import Footer from "./components/footer/Footer.jsx";
 
 
@@ -29,6 +30,7 @@ function App() {
           <Home />
           <Produtos />
           <Sobre />
+          <Cadastro />
           <Footer />
         </>
       )}

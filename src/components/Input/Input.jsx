@@ -6,8 +6,8 @@ import styles from "./styles.module.css";
 function Input({ value, label, onChange, type }) {
   return (
     <>
-      <Label>{label}</Label>
       <input
+        placeholder={label}
         type={type}
         value={value}
         onChange={onChange}
