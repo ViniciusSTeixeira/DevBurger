@@ -1,0 +1,21 @@
+import React from "react";
+import "./Sobre.css"
+
+function SobreBox (props) {
+    return (
+        <div className="sobre-box">
+            <div className="sobre-img">
+                <img src={props.image}/>
+            </div>
+
+            <div className="sobre-texto">
+                <h3> {props.title} </h3>
+                <p> Linkedin: {props.linkedin} <br/> 
+                Github: {props.github}</p>
+            </div>
+
+        </div>
+    )
+}
+
+export default SobreBox;
