@@ -4,7 +4,7 @@
 <p align="center">
     <img src="./readme-img/bfb85a3f88168ed6c5eaf931e6831f76.gif" alt="Logo" width="700">
 
-  <h1 align="center">DEV'S BURGE</h1>
+  <h1 align="center">DEV'S BURGE</h1 align="center">
  <br />
   <p align="center">SUMÁRIO<p align="center">
   <a href="#Requisitos">Pré-requisitos</a> |
