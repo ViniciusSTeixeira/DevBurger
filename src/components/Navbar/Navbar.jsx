@@ -41,7 +41,7 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={2000}>
+          <Link to="cadastro" smooth={true} duration={2000}>
             Cadastre-se
           </Link>
         </li>
