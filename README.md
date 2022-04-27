@@ -5,7 +5,7 @@
   <h1 align="center">DEV'S BURGER</h1 align="center">
  <br />
   <p align="center">SUMÁRIO<p align="center">
-  <a href="#Requisitos">Pré-requisitos</a> |
+  <a href="#Requisitos">Requisitos</a> |
   <a href="#sobre"> Sobre </a> |
   <a href="#conhecimentos-praticados"> Conhecimentos praticados </a> |
   <a href="#rotas-da-aplicação"> Rotas da aplicação </a> 
