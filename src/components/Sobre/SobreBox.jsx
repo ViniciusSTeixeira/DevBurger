@@ -11,6 +11,8 @@ function SobreBox (props) {
             <div className="sobre-texto">
                 <h3> {props.title} </h3>
                 <a href={props.linkedin}> • Linkedin</a>
+                <br></br>
+                <a href={props.github}> • Github</a>
             </div>
 
         </div>
