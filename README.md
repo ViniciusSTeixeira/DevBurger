@@ -1,18 +1,20 @@
 # DEV'S BURGER
 
-<br/>
-    <p align='center'>
-        <img src="" alt="logo" width="">
+<br />
+<p align="center">
+    <img src="./readme-img/bfb85a3f88168ed6c5eaf931e6831f76.gif" alt="Logo" width="700">
 
-        <h1 align="center">DEV'S BURGER</h1>
-<br/>
-    <p align="center">SUMÁRIO<p align="center">
-    <a href="#Sobre">Sobre</a> |
-    <a href="#Requisitos">Requisitos</a> |
-    <a href="#Tecnologias-aplicadas">Conhecimentos aplicados</a> |
-    <a href="#Links-uteis">Links uteis</a> |
-    <a href="Considerações-finais">Considerações finais</a> 
-</br>
+  <h1 align="center">DEV'S BURGE</h1>
+ <br />
+  <p align="center">SUMÁRIO<p align="center">
+  <a href="#pré-requisitos">Pré-requisitos</a> |
+  <a href="#sobre"> Sobre </a> |
+  <a href="#conhecimentos-praticados"> Conhecimentos praticados </a> |
+  <a href="#rotas-da-aplicação"> Rotas da aplicação </a> 
+       <br />
+    <br />
+  </p>
+</p>
 
 # Sobre:
 
@@ -21,7 +23,7 @@ para uma hamburgueria e conectar com um banco de dados para efetuar o CRUD.
 
 # Requisitos:
 
-Utilizando o terminal de sua preferencia de o seguinte comando:
+Utilizando o terminal de sua preferência use o seguinte comando:
 
 ### git clone https://github.com/ViniciusSTeixeira/DevBurger.git
 
