@@ -7,7 +7,7 @@
   <h1 align="center">DEV'S BURGE</h1>
  <br />
   <p align="center">SUMÁRIO<p align="center">
-  <a href="#pré-requisitos">Pré-requisitos</a> |
+  <a href="#Requisitos">Pré-requisitos</a> |
   <a href="#sobre"> Sobre </a> |
   <a href="#conhecimentos-praticados"> Conhecimentos praticados </a> |
   <a href="#rotas-da-aplicação"> Rotas da aplicação </a> 
