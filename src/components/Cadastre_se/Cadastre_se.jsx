@@ -1,10 +1,35 @@
 import React from "react";
+import Button from "../Button/Button.jsx";
+import Input from "../Input/Input.jsx"
+import "./Cadastre_se.css"
 
 function Cadastro() {
-    return (
+    
+  return (
       <div id="main">
         <div className="header-heading">
-          <p>oiiajsiahsahs</p>
+          <div id="cadastro">
+            <h2>CADASTRE-SE</h2>
+            <p>
+              venha para nossa plataforma e receba ofertas, cupons e novidades!
+              Assim agilizamos seu pedido conosco para garantirmos seu
+              Devburguer <strong>SEM BUG</strong> nenhum!
+            </p>
+
+            <form>
+              <Input label="Nome completo" />
+
+              <Input label="Telefone" type="tel" />
+
+              <Input label="Logradouro" />
+
+              <Input label="Número" />
+
+              <Input label="Complemento" />
+            </form>
+
+            <Button>Enviar</Button>
+          </div>
         </div>
       </div>
     );

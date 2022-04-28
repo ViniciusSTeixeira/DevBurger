@@ -1,0 +1,9 @@
+.input {
+    border: none;
+    border-bottom: 2px solid #bf2222;
+    background: none;
+    outline: none;
+    color: black;
+    width: 40%;
+    height: 5vh;
+  }
