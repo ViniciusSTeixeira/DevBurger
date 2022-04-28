@@ -6,6 +6,7 @@ import Loading from "./components/loading/Loading";
 import Footer from "./components/footer/Footer.jsx";
 import Rotas from "./Routes/Router.js"
 
+
 function App() {
   const [loading, setLoading] = useState(false);
 
