@@ -1,9 +1,16 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Button from "../Button/Button.jsx";
 import Input from "../Input/Input.jsx"
 import "./Cadastre_se.css"
 
 function Cadastro() {
+
+  const navigate = useNavigate()
+
+  function funcaoBtn() {
+    navigate('/conta') 
+  }
     
   return (
       <div id="main">
@@ -28,7 +35,7 @@ function Cadastro() {
               <Input label="Complemento" />
             </form>
 
-            <Button>Enviar</Button>
+            <Button onClick={funcaoBtn}>Enviar</Button>
           </div>
         </div>
       </div>
