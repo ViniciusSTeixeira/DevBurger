@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
+import { Link as LinkRouter } from "react-router-dom";
 import logo from "../../images/logo.png";
 import "./Navbar.css";
 
@@ -26,9 +27,9 @@ function Navbar() {
       </label>
       <ul className="menu">
         <li>
-          <Link to="main" smooth={true} offset={51} duration={2000}>
+        <LinkRouter to="/">
             Home
-          </Link>
+          </LinkRouter>
         </li>
         <li>
           <Link to="products" smooth={true} offset={51} duration={2000}>
@@ -41,9 +42,9 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={2000}>
+          <LinkRouter to="/cadastro">
             Cadastre-se
-          </Link>
+          </LinkRouter>
         </li>
       </ul>
     </nav>

@@ -1,9 +1,12 @@
 import React from "react";
 import Link from "react-scroll/modules/components/Link";
+import Produtos from "../produtos/Produtos";
+import Sobre from "../Sobre/Sobre";
 import "./Home.css";
 
 function Home() {
   return (
+    <>
     <div id="main">
       <div className="header-heading">
         <h3>A melhor hora do seu dia chegou, peça já o seu HAMBURGUER!!</h3>
@@ -28,6 +31,11 @@ function Home() {
         </div>
       </div>
     </div>
+    
+    <Produtos />
+    <Sobre />
+
+    </>
   );
 }
 export default Home;
