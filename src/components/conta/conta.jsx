@@ -32,7 +32,7 @@ function Conta() {
           </div>
         </div>
         <Button>Alterar</Button><br></br>
-        <p>Excluir minha conta</p>
+        <p>Excluir conta</p>
       </div>
     </div>
   );
