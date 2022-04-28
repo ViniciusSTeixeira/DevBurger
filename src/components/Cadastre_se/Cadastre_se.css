@@ -1,0 +1,32 @@
+#cadastro {
+    width: 70%;
+    height: 90vh;
+    font-family: "Lato";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;    
+    background-color: transparent;
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+  
+  #cadastro h2{
+    font-family: "Alfa Slab One";
+    color: #3d2514;
+    letter-spacing: 2px;
+    font-size: 3em;
+  }
+  
+  #cadastro  p{
+    color: black;
+  }
+  
+  form{
+    width: 70vw;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
