@@ -23,17 +23,17 @@ para uma hamburgueria e conectar com um banco de dados para efetuar o CRUD.
 
 Utilizando o terminal de sua preferência use o seguinte comando:
 
-```git clone https://github.com/ViniciusSTeixeira/DevBurger.git```
+`git clone https://github.com/ViniciusSTeixeira/DevBurger.git`
 
 Após clonar o repositório abra pasta de destino utilizando o VSCode,<br>
 abra o terminal do versionador de código com o comando CTRL+J e instale o NPM para rodar o projeto localmente<br>
 com todas as dependências necessárias.
 
-```npm install```
+`npm install`
 
 Para iniciar o projeto utilize o comando:
 
-```npm start```
+`npm start`
 
 # Links uteis
 
@@ -43,8 +43,10 @@ Para iniciar o projeto utilize o comando:
 
 # Tecnologias aplicadas
 
+<div flex-direction="row" align="center" justify-content="space-around">
 <img src="./readme-img/logo-javascript-png-transparent-logo-javascript-images-892775.png" alt="Logo" width="100">
 <img src="./readme-img/node-js.png" alt="Logo" width="100">
 <img src="./readme-img/react-icon-221711.png" alt="Logo" width="100">
 <img src="./readme-img/mongodb-atlas-hits-amazon-web-services-marketplace-leaf-plant-balloon-sprout-transparent-png-2110680.png" alt="Logo" width="100">
 <img src="./readme-img/pngegg.png" alt="Logo" width="100">
+</div>
