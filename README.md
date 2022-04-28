@@ -48,3 +48,5 @@ Para iniciar o projeto utilize o comando:
 <img src="./readme-img/logo-javascript-png-transparent-logo-javascript-images-892775.png" alt="Logo" width="100">
 <img src="./readme-img/node-js.png" alt="Logo" width="100">
 <img src="./readme-img/react-icon-221711.png" alt="Logo" width="100">
+<img src="./readme-img/mongodb-atlas-hits-amazon-web-services-marketplace-leaf-plant-balloon-sprout-transparent-png-2110680.png" alt="Logo" width="100">
+<img src="./readme-img/pngegg.png" alt="Logo" width="100">
