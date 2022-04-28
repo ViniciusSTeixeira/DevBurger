@@ -42,7 +42,6 @@ Para iniciar o projeto utilize o comando:
 ✔[Node.js](https://nodejs.org/en/) <br>
 
 # Tecnologias aplicadas
-
 <div flex-direction="row" align="center" justify-content="space-around">
 <img src="./readme-img/logo-javascript-png-transparent-logo-javascript-images-892775.png" alt="Logo" width="100">
 <img src="./readme-img/node-js.png" alt="Logo" width="100">
