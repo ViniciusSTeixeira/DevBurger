@@ -1,13 +1,11 @@
-# DEV'S BURGER
-
 <br />
 <p align="center">
     <img src="./readme-img/bfb85a3f88168ed6c5eaf931e6831f76.gif" alt="Logo" width="700">
 
-  <h1 align="center">DEV'S BURGE</h1>
+  <h1 align="center">DEV'S BURGER</h1 align="center">
  <br />
   <p align="center">SUMÁRIO<p align="center">
-  <a href="#pré-requisitos">Pré-requisitos</a> |
+  <a href="#Requisitos">Requisitos</a> |
   <a href="#sobre"> Sobre </a> |
   <a href="#conhecimentos-praticados"> Conhecimentos praticados </a> |
   <a href="#rotas-da-aplicação"> Rotas da aplicação </a> 
@@ -25,17 +23,17 @@ para uma hamburgueria e conectar com um banco de dados para efetuar o CRUD.
 
 Utilizando o terminal de sua preferência use o seguinte comando:
 
-### git clone https://github.com/ViniciusSTeixeira/DevBurger.git
+```git clone https://github.com/ViniciusSTeixeira/DevBurger.git```
 
 Após clonar o repositório abra pasta de destino utilizando o VSCode,<br>
 abra o terminal do versionador de código com o comando CTRL+J e instale o NPM para rodar o projeto localmente<br>
 com todas as dependências necessárias.
 
-### npm install
+```npm install```
 
 Para iniciar o projeto utilize o comando:
 
-### npm start
+```npm start```
 
 # Links uteis
 
