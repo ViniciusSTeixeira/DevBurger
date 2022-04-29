@@ -5,6 +5,8 @@ import Input from "../Input/Input.jsx"
 import { toast } from "react-toastify";
 import axios from 'axios'
 import "./Cadastre_se.css"
+import 'react-toastify/dist/ReactToastify.css';
+
 
 function Cadastro() {
   const [nome, setNome] = useState("");
@@ -13,7 +15,8 @@ function Cadastro() {
   const [rua, setRua] = useState("");
   const [numero, setNumero] = useState("");
   const [complemento, setComplemento] = useState("") 
-
+  const navigate = useNavigate()
+  
   const submitForm = async (event) => {
     event.preventDefault();
 
@@ -25,19 +28,17 @@ function Cadastro() {
       numero: numero,
       complemento: complemento
       }).then((response) => {
-          console.log(response);
+        toast.success("Cadastro realizado com sucesso"); 
+        navigate(`/conta/${email}`) 
         }).catch((error) => {
-          console.log(error.response);
+          toast.error("Houve um erro ao realizar cadastro, tente novamente e verifique as informações");
+          console.log(error)
         });
     }     
       
-      
+    
 
-  const navigate = useNavigate()
-
-  function funcaoBtn() {
-    navigate('/conta') 
-  }
+  
     
   return (
       <div id="main">
@@ -46,11 +47,11 @@ function Cadastro() {
             <h2>CADASTRE-SE</h2>
             <p>
               Venha para nossa plataforma e receba ofertas, cupons e novidades!
-              Assim agilizamos seu pedido conosco para garantirmos seu
-              Devburguer <strong>SEM BUG</strong> nenhum!
+              Assim agilizamos seu pedido e garantirmos seu
+              DevBurguer <strong>SEM BUG</strong> nenhum!
             </p>
 
-            <form onSubmit={submitForm}>
+            <form className="formCadastro" onSubmit={submitForm}>
               <Input  value={nome} label="Nome completo" onChange={(event) => setNome(event.target.value)}/>
 
               <Input  value={email} label="Email" type="email" onChange={(event) => setEmail(event.target.value)}/>
@@ -69,14 +70,14 @@ function Cadastro() {
               <Button type="submit">Criar Conta</Button>
 
             </form>
-
-            <Button onClick={funcaoBtn}>Minha conta</Button>
           </div>
         </div>
+        
       </div>
     );
   
 }
-  export default Cadastro;
 
+  export default Cadastro;
+ 
  

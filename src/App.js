@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { ToastContainer } from "react-toastify";
 import "./App.css";
 import "./components/loading/Loading.css";
 import Navbar from "./components/Navbar/Navbar.jsx";
@@ -27,6 +28,7 @@ function App() {
           <Footer />
         </>
       )}
+      <ToastContainer />
     </div>
   );
 }
