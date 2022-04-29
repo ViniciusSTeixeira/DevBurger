@@ -1,92 +1,33 @@
-.header-conta {
-  font-family: "Montserrat";
-  width: 60vw;
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   position: absolute;
-  left: 20%;
-  top: 55%;
-  text-align: left;
+  width: 600px;
+  height: 700px;
+  background: rgba(243, 169, 112, 0.333);
+  font-family: "Montserrat";
+  left: 15%;
+  top: 60%;
   transform: translate(-25%, -55%);
+  border-radius: 20px;
+  
+}
+.formConta{
+  width: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
+  justify-content: space-around;
+  
 }
 
-.header-conta h2{
-    font-family: "Bebas Neue";
-    font-size: 2.6rem;
-    letter-spacing: 2px;
-    color: #3d2514;
-}
-
-.perfil {
-  width: 30%;
-  height: 10vh;
-  font-family: "Lato";
+.botaoForm1{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-  text-align: center;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.424);
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.774);
+  margin-top: 10px;
 }
-
-.perfil input{
-  background-color: rgb(219, 219, 219);
-  width: 90%;
-  height: 30%;
-  text-align: center;
-}
-
-#perfil-rua{
-
-  width: 65%;
-
-}
-
-#card{
-  width: 100%;
-  height: 20vh;
+.botaoForm2{
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  margin-top: 10px;
 }
 
-#perfil h2{
-  font-family: "Alfa Slab One";
-  color: #3d2514;
-  letter-spacing: 2px;
-  font-size: 3em;
-}
-
-#perfil  p{
-  color: black;
-}
-
-form{
-  width: 70vw;  
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-}
-
-@media (max-width: 1190px) {
-  
-  .header-conta{
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-}
-
-@media (max-width: 600px) {
-  .header-conta {
-    width: 60%;
-  }
-  
-}
