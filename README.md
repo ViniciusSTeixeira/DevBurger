@@ -19,6 +19,10 @@
 Projeto de final do 5º modulo da Resilia Educação com finalidade de desenvolver um site em React <br>
 para uma hamburgueria e conectar com um banco de dados para efetuar o CRUD.
 
+Deploy do projeto se encontra no seguine link:
+
+```https://dev-burger.vercel.app/```
+
 # Requisitos:
 
 Utilizando o terminal de sua preferência use o seguinte comando:
