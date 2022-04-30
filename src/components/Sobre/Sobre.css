@@ -8,8 +8,10 @@
     align-items: center;
     justify-content: center;
     padding-top: 40px;
-    background-color: #ffffff;
+    background-color: white;
   }
+
+  
 
   #about h2 {
     font-family: "Alfa Slab One";
@@ -33,7 +35,8 @@
     border-radius: 20px;
 }
 
-a{
+.sobre-texto a{
+    text-decoration: none;
     color:#3d2514;
 }
 
