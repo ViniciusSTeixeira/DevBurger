@@ -17,7 +17,7 @@ function Conta() {
   const [rua, setRua] = useState("");
   const [numero, setNumero] = useState("");
   const [complemento, setComplemento] = useState("") 
-
+  const navigate = useNavigate()
 
   useEffect(() => {
     axios.get(`https://rest-api-hamburgueria.herokuapp.com/cliente/${emailParams}`)
@@ -31,20 +31,21 @@ function Conta() {
   }, []);
 
 
-  async function deletarConta(){  
-
+  const deletarConta = async (event)=>{  
+    event.preventDefault()
     try {
-      const response = await axios.delete(`https://rest-api-hamburgueria.herokuapp.com/cliente/${emailParams}`);
+      const response = await axios.delete(`https://rest-api-hamburgueria.herokuapp.com/cliente/${data.email}`);
       const newData = data.filter((conta) => conta.email !== email)
       setData(newData);
 
-      alert("Conta deletada com sucesso, volte a página principal");
+      
   
 
     } catch (error) {
-      toast.sucess("Conta deletada com sucesso, volte a página principal");
+      toast.success("Conta deletada com sucesso, volte a página principal");
       
     }
+    navigate("/")
   };
 
   const submitForm = async (event) => {
@@ -87,7 +88,7 @@ function Conta() {
            <Button onClick={submitForm} type="submit" >Atualizar cadastro</Button>
           </div>
           <div className="botaoForm2">
-           <Button onClick={deletarConta} type="submit">Deletar Conta</Button>
+           <button className="botaoConta" onClick={deletarConta} type="submit">Deletar Conta</button>
            </div>
         </form>
       </div>
